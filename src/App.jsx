@@ -7,7 +7,7 @@ import MyWork from './Components/My Work/MyWork'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 
-const App = () => {
+const App = () => {             //Main Page Structure
   return (
     <div>
       <Navbar/>

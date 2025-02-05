@@ -5,8 +5,8 @@ import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
   return (
-    <div className="footer">
-        <div className="footer-top">
+    <div className="footer">                                    {/*Main foooter*/}
+        <div className="footer-top">                            {/*Top foooter*/}
             <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
                 <p>A student seeking internship placement</p>
@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <div className="footer-bottom">
+        <div className="footer-bottom">                         {/*Bottom foooter*/}
             <p className="footer-bottom-left">© 2025 Alex Bennett. All rights reserved</p>
             <div className="footer-bottom-right">
                 <p>Terms of Services</p>

@@ -5,17 +5,17 @@ import aboutme_img from '../../../assets/aboutme_img.jpg'
 
 const About = () => {
   return (
-    <div id='about' className='about'>
+    <div id='about' className='about'>                        {/*About Me*/}
       <div className="about-title">
         <h1>About Me</h1>
         <img src={theme_pattern} alt=""/>
       </div>
       <div className="about-sections">
         <div className="about-left">
-            <img src={aboutme_img} alt="" />
+            <img src={aboutme_img} alt="" />                  {/*About Me Img*/}
         </div>
         <div className="about-right">
-            <div className="about-para">
+            <div className="about-para">                      {/*About Me Desc*/}
                 <p>A student currently looking for internship pleacement in Web Developer role preferrably in Frontend Development</p>
                 <p>have experience in Backend Development</p>
                 <p>LinkedIn and Github</p>
@@ -23,7 +23,7 @@ const About = () => {
                 <p><a href="https://github.com/Zeyynn" target="_blank" rel="noopener noreferrer" className='links'>GitHub</a></p>
 
             </div>
-            <div className="about-skills">
+            <div className="about-skills">                    {/*About Me Skills*/}
                 <div className="about-skill"><p>HTML & CSS</p><hr style ={{width:"80%"}}/></div>
                 <div className="about-skill"><p>ReactJS</p><hr style ={{width:"40%"}}/></div>
                 <div className="about-skill"><p>JavaScript</p><hr style ={{width:"60%"}}/></div>
@@ -34,7 +34,7 @@ const About = () => {
             </div>
         </div>
       </div>
-      <div className="about-achievements">
+      <div className="about-achievements">                    {/*About Me Achievements*/}
         <div className="about-achievement">
             <h1>1</h1>
             <p>Years of Experience</p>

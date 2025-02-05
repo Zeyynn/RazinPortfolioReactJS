@@ -6,12 +6,12 @@ import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Services = () => {
   return (
-    <div id='services' className="services">
+    <div id='services' className="services">                    {/*Portfolio Section*/}
         <div className="services-title">
             <h1>My Projects</h1>
             <img src={theme_pattern} alt="" />
         </div>
-        <div className="services-container">
+        <div className="services-container">                    {/*Portfolio Contents*/}
             {Services_Data.map((service,index)=>{
                 return <div key={index} className="services-format">
                     <h3>{service.s_no}</h3>

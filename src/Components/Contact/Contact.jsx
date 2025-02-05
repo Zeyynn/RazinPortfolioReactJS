@@ -5,7 +5,7 @@ import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call from '../../assets/call_icon.svg'
 
-const Contact = () => {
+const Contact = () => {                                 //API for email notification
 
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -32,11 +32,11 @@ const Contact = () => {
 
   return (
     <div id='contact' className='contact'>
-        <div className="contact-title">
+        <div className="contact-title">                 {/*Title*/}
             <h1>Get in Touch</h1>
             <img src={theme_pattern} alt="" />
         </div>
-        <div className="contact-section">
+        <div className="contact-section">               {/*Contents for Contact*/}
             <div className="contact-left">
                 <h1>Let's talk</h1>
                 <p>Currently searching for internship. You can contact me anytime.</p>
@@ -52,7 +52,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form onSubmit={onSubmit} className="contact-right">
+            <form onSubmit={onSubmit} className="contact-right">              {/*Form for Submission*/}
             <label htmlFor="">Your Name</label>
             <input type="text" placeholder="Enter your name" name="name"/>
             <label htmlFor="">Your Email</label>

@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 
-const Navbar = () => {
+const Navbar = () => {                                      //Toggle open and close navbar if window is minimized
 
     const[menu,setMenu] = useState("about");
     const menuRef = useRef();
@@ -20,7 +20,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className="navbar">
+    <div className="navbar">                                {/*Navigation Bar*/}
         <img src={logo} alt="" />
         <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
         <ul ref={menuRef} className="nav-menu">
