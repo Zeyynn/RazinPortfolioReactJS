@@ -29,6 +29,16 @@ const Services_Data = [
         s_name:"Ada.ir (Project Assignment)",
         s_desc:"Portfolio website for Ada.ir company"
     },
+    {
+        s_no:"07",
+        s_name:"Movie Ticket Booking System (Project Assignment)",
+        s_desc:"Java program for booking a movie ticket"
+    },
+    {
+        s_no:"08",
+        s_name:"Event Management System (Project Assignment)",
+        s_desc:"Mobile app for hosting and managing an event"
+    },
 ]
  
 export default Services_Data;
