@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.png'
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
@@ -8,7 +8,7 @@ import menu_close from '../../assets/menu_close.svg'
 
 const Navbar = () => {                                      //Toggle open and close navbar if window is minimized
 
-    const[menu,setMenu] = useState("about");
+    const[menu,setMenu] = useState("home");
     const menuRef = useRef();
 
     const openMenu = () => {

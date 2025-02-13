@@ -34,14 +34,6 @@
     font-family: Outfit;
     font-size: 18px
 }
-.footer-subscribe{
-    font-size: 20px;
-    padding: 22px 50px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-    cursor: pointer;
-    transition: 0.3s;
-}
 .footer-bottom{
     display: flex;
     justify-content: space-between;

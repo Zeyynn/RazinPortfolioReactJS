@@ -16,12 +16,12 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">                      {/*About Me Desc*/}
-                <p>A student currently looking for internship pleacement in Web Developer role preferrably in Frontend Development</p>
-                <p>have experience in Backend Development</p>
-                <p>LinkedIn and Github</p>
+                <p>A university student currently interning at Trigon Tech as a Full Stack Developer</p>
+                <p>Have experience in both Frontend and Backend Development.</p>
+                <p>Links for LinkedIn, Github and Trigon Tech :</p>
                 <p><a href="https://www.linkedin.com/in/hariz-razin-m-893638302" target="_blank" rel="noopener noreferrer" className='links'>LinkedIn</a></p>
                 <p><a href="https://github.com/Zeyynn" target="_blank" rel="noopener noreferrer" className='links'>GitHub</a></p>
-
+                <p><a href="https://trigontech.my" target="_blank" rel="noopener noreferrer" className='links'>Trigon Tech</a></p>
             </div>
             <div className="about-skills">                    {/*About Me Skills*/}
                 <div className="about-skill"><p>HTML & CSS</p><hr style ={{width:"80%"}}/></div>

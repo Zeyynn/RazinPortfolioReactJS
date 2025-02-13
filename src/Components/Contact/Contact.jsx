@@ -39,7 +39,7 @@ const Contact = () => {                                 //API for email notifica
         <div className="contact-section">               {/*Contents for Contact*/}
             <div className="contact-left">
                 <h1>Let's talk</h1>
-                <p>Currently searching for internship. You can contact me anytime.</p>
+                <p>Currently interning for Trigon Tech. You can contact me anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" /> <p>razinhariz@gmail.com</p>
