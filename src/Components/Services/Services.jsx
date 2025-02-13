@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
+import theme_pattern from '../../assets/theme_pattern1.svg'
 import Services_Data from '../../assets/services_data'
 
 const Services = () => {
