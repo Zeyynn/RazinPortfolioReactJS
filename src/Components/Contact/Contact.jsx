@@ -45,7 +45,7 @@ const Contact = () => {                                 //API for email notifica
                         <img src={mail_icon} alt="" /> <p>razinhariz@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /> <p>No 2/2526 Jalan Darat Makbar 25100 Kuantan</p>
+                        <img src={location_icon} alt="" /> <p>Kuantan, Pahang</p>
                     </div>
                     <div className="contact-detail">
                         <img src={call} alt="" /> <p>+6013-939-0341</p>
@@ -59,7 +59,7 @@ const Contact = () => {                                 //API for email notifica
             <input type="email" placeholder="Enter your email" name="email"/>
             <label htmlFor="">Message</label>
             <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
-            <button type="submit" className="contact-submit">Submit now</button>
+            <button type="submit" className="contact-submit">Submit</button>
         </form>
         </div>
     </div>

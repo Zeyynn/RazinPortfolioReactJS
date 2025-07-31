@@ -39,6 +39,12 @@ const Services_Data = [
         s_name:"Event Management System (Project Assignment)",
         s_desc:"Mobile app for hosting and managing an event"
     },
+    {
+        s_no:"09",
+        s_name:"MPOB e-Lesen System (Internship Project)",
+        s_desc:"Assisted a real life project for Malaysian Palm Oil Board"
+    },
+    
 ]
  
 export default Services_Data;

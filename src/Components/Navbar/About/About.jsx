@@ -29,7 +29,7 @@ const About = () => {
                 <div className="about-skill"><p>JavaScript</p><hr style ={{width:"60%"}}/></div>
                 <div className="about-skill"><p>Laravel</p><hr style ={{width:"70%"}}/></div>
                 <div className="about-skill"><p>PHP</p><hr style ={{width:"60%"}}/></div>
-                <div className="about-skill"><p>Java</p><hr style ={{width:"50%"}}/></div>
+                <div className="about-skill"><p>TypeScript</p><hr style ={{width:"50%"}}/></div>
                 <div className="about-skill"><p>MySQL</p><hr style ={{width:"50%"}}/></div>
             </div>
         </div>
