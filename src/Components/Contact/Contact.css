@@ -14,6 +14,10 @@
     font-size: 80px;
     font-weight: 600;
 }
+.contact-title:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
 .contact-title img{
     position: absolute;
     bottom: 0;

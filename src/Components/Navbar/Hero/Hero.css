@@ -1,93 +1,162 @@
-.hero{
-    display:flex;
-    align-items:center;
+.hero {
+    display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 35px;
 }
-.hero img{
+
+.hero img {
     margin-top: 150px;
 }
 
-.hero h1{
+.hero h1 {
     text-align: center;
     width: 70%;
     font-size: 90px;
     font-weight: 600;
 }
-.hero h1 span{
-    background: linear-gradient(90deg, rgba(83,85,153,1) 0%, rgba(9,121,121,1) 43%, rgba(0,212,255,1) 100%);
+
+.hero h1 span {
+    /* background: linear-gradient(90deg, rgba(83, 85, 153, 1) 0%, rgba(9, 121, 121, 1) 43%, rgba(0, 212, 255, 1) 100%); */
     background-clip: text;
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hero p{
+
+.hero p {
     width: 50%;
     text-align: center;
     font-size: 24px;
     line-height: 40px;
 }
 
-.hero-action{
+.hero-action {
     display: flex;
     align-items: center;
-    gap:25px;
-    font-size:24px;
+    gap: 25px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
-.hero-connect{
+.hero-connect {
     padding: 25px 45px;
     border-radius: 50px;
-    background: linear-gradient(90deg, rgba(83,85,153,1) 0%, rgba(9,121,121,1) 43%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(83, 85, 153, 1) 0%, rgba(9, 121, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
     cursor: pointer;
 }
-.hero-resume{
+
+.hero-resume {
     padding: 25px 75px;
     border-radius: 50px;
-    background: linear-gradient(270deg, rgba(83,85,153,1) 0%, rgba(9,121,121,1) 43%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(270deg, rgba(83, 85, 153, 1) 0%, rgba(9, 121, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
     cursor: pointer;
     color: white;
 }
-.hero-connect:hover{
+
+.hero-connect:hover {
     border: 2px solid #FFFFFF;
 }
-.hero-resume:hover{
+
+.hero-resume:hover {
     border: 2px solid #FFFFFF;
 }
-@media(max-width:768px){
-    .hero img{
+
+@media(max-width:768px) {
+    .hero img {
         margin-top: 120px;
         width: 260px;
     }
-    .hero h1{
+
+    .hero h1 {
         margin-top: 50px;
         width: 90%;
         font-size: 50px;
     }
-    .hero p{
+
+    .hero p {
         width: 60%;
         font-size: 18px;
         line-height: 32px;
         margin: 10px 0px;
     }
-    .hero-action{
+
+    .hero-action {
         gap: 16px;
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 50px;
     }
-    .hero-connect{
+
+    .hero-connect {
         padding: 20px 30px;
         border-radius: 40px;
     }
-    .hero-resume{
+
+    .hero-resume {
         padding: 20px 50px;
         border-radius: 40px;
         color: white;
         text-decoration: none;
     }
 }
+
 .profile-image {
     border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
 }
+
+.profile-image {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    /* ensures image stays circular */
+    display: inline-block;
+}
+
+/* Create gradient border with pseudo-element */
+.profile-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* cover entire element */
+    padding: 2px;
+    /* border thickness */
+    border-radius: 50%;
+    background: linear-gradient(270deg, rgba(83, 85, 153, 1) 0%, rgba(9, 121, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    /* allow clicks through */
+}
+
+/* Hover animation */
+.profile-image:hover {
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+.hero-name{
+    background: linear-gradient(90deg, rgba(83, 85, 153, 1) 0%, rgba(9, 121, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+    background-clip: text;
+}
+.hero-name:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.hero-country{
+    background: linear-gradient(
+      90deg,
+      
+      #cc0001 0%,    /* Red */
+      #ffffff 25%,   /* White */
+      #010066 50%,   /* Blue */
+      #ffcc00 75%    /* Yellow */
+      
+    );
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+  }

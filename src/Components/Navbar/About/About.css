@@ -20,6 +20,10 @@
     right: 0;
     z-index: -1;
 }
+.about-title:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
 .about-sections{
     display: flex;
     gap: 80px;
@@ -37,29 +41,76 @@
     font-weight: 500;
 }
 .about-skills{
-    display: flex;
+    display: grid;
     flex-direction: column;
-    gap: 20px;
+    gap: 20px 50px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
 }
-.about-skill{
-    display: flex;
-    gap: 50px;
+.about-skill {
+    display: grid;
     align-items: center;
+    gap: 30px;
     transition: 0.3s;
-}
+    width: 100%;
+    max-width: 500px;
+  }
 .about-skill p{
     min-width: 150px;
     font-size: 24px;
     font-weight: 500;
 }
-.about-skill hr{
-    outline:none;
+
+/* Container for the bar */
+.about-skill .bar-wrapper {
+    position: relative;
+    flex: 1; /* take available width */
+    height: 8px;
+    background: #fff; /* white base bar */
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  /* The gradient bar (progress) */
+.about-skill .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0; /* start at 0 */
+    border-radius: 50px;
+    background: linear-gradient(
+      90deg,
+      rgba(83, 85, 153, 1) 0%,
+      rgba(9, 121, 121, 1) 43%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    transition: width 0.8s ease; /* smooth animation */
+  }
+  
+  .about-skill:hover .bar {
+    width: var(--target-width); /* animate to target width */
+  }
+
+.about-skill hr {
+    outline: none;
     border: none;
-    width: 50%;
+    width: 0; /* start with 0 width */
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(90deg, rgba(83,85,153,1) 0%, rgba(9,121,121,1) 43%, rgba(0,212,255,1) 100%);
-}
+    background: linear-gradient(
+      90deg,
+      rgba(83, 85, 153, 1) 0%,
+      rgba(9, 121, 121, 1) 43%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    transition: width 0.5s ease; /* smooth animation */
+  }
+  
+  .about-skill:hover hr {
+    width: var(--target-width); /* expand to target width on hover */
+  }
+  
 .about-achievements{
     display: flex;
     width: 100%;

@@ -17,10 +17,6 @@ const Footer = () => {
         <div className="footer-bottom">                         {/*Bottom foooter*/}
             <p className="footer-bottom-left">© 2025 Hariz Razin. All rights reserved</p>
             <div className="footer-bottom-right">
-                <p>Terms of Services</p>
-                <p>Privacy Policy</p>
-                <p>Connect With Me</p>
-                <p></p>
             </div>
         </div>
     </div>
