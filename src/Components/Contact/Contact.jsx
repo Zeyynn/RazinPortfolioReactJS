@@ -47,9 +47,6 @@ const Contact = () => {                                 //API for email notifica
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> <p>Kuantan, Pahang</p>
                     </div>
-                    <div className="contact-detail">
-                        <img src={call} alt="" /> <p>+6013-939-0341</p>
-                    </div>
                 </div>
             </div>
             <form onSubmit={onSubmit} className="contact-right">              {/*Form for Submission*/}
