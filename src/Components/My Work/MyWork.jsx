@@ -7,9 +7,11 @@ import ModalWork from '../Modal/modalWork'
 const MyWork = () => { 
   const [selectedImage, setSelectedImage] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedDescription, setSelectedDescription] = useState('');
 
-  const handleImageClick = (imageUrl) => {
+  const handleImageClick = (imageUrl, description) => {
     setSelectedImage(imageUrl);
+    setSelectedDescription(description);
     setIsModalOpen(true);
   };
 
@@ -30,7 +32,7 @@ const MyWork = () => {
                     key={index} 
                     src={work.w_img} 
                     alt={work.title || "Project preview"} 
-                    onClick={() => handleImageClick(work.w_img)}
+                    onClick={() => handleImageClick(work.w_img, work.w_desc)}
                     style={{ cursor: 'pointer' }}
                 />
             ))}
@@ -39,6 +41,7 @@ const MyWork = () => {
             isOpen={isModalOpen}
             onClose={handleCloseModal}
             imageUrl={selectedImage}
+            description={selectedDescription}
         />
     </div>
   )

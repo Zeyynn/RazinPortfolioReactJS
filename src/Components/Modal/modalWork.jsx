@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import './modalWork.css'
 
-const ModalWork = ({ isOpen, onClose, imageUrl }) => {
+const ModalWork = ({ isOpen, onClose, imageUrl, description }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
+  const [selectedDescription, setSelectedDescription] = useState('');
 
   useEffect(() => {
     if (isOpen) {
@@ -12,7 +13,7 @@ const ModalWork = ({ isOpen, onClose, imageUrl }) => {
     } else {
       setTimeout(() => {
         setShowModal(false);
-      }, 600); // Match this with CSS animation duration
+      }, 600); 
     }
   }, [isOpen]);
 
@@ -39,6 +40,7 @@ const ModalWork = ({ isOpen, onClose, imageUrl }) => {
             style={{ opacity: isLoading ? 0 : 1 }}
             className="modal-image align-items-center justify-content-center display-block ml-auto mr-auto"
           />
+          <p className='modal-description text-center text-black'> {description} </p>
         </div>
       </div>
     </div>
