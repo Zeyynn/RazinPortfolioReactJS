@@ -8,14 +8,14 @@ const Footer = () => {
         <div className="footer-top">                            {/*Top foooter*/}
             <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
-                <p>A student interning at Trigon Tech</p>
+                <p></p>
             </div>
             <div className="footer-top-right">
             </div>
         </div>
         <hr />
         <div className="footer-bottom">                         {/*Bottom foooter*/}
-            <p className="footer-bottom-left">© 2025 Hariz Razin. All rights reserved</p>
+            <p className="footer-bottom-left"></p>
             <div className="footer-bottom-right">
             </div>
         </div>
