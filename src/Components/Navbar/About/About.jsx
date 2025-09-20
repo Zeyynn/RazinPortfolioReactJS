@@ -25,7 +25,7 @@ const About = () => {
             <p><a href="https://trigontech.my" target="_blank" rel="noopener noreferrer" className='links'>Trigon Tech</a></p>
           </div>
           <div className="about-skills">
-            <div className="about-skill" style={{ "--target-width": "80%" }}>
+            <div className="about-skill" style={{ "--target-width": "95%" }}>
               <p>HTML & CSS</p>
               <div className="bar-wrapper">
                 <div className="bar"></div>
@@ -45,7 +45,7 @@ const About = () => {
               </div>
             </div>
             <div className="about-skill" style={{ "--target-width": "75%" }}>
-              <p>Laravel</p>
+              <p>Laravel Framework</p>
               <div className="bar-wrapper">
                 <div className="bar"></div>
               </div>
@@ -80,7 +80,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>8</h1>
+          <h1>9</h1>
           <p>Projects Completed</p>
         </div>
         <hr />

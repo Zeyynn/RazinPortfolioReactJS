@@ -25,6 +25,8 @@ const Services = () => {
                             </a>
                         </h2>
                         <p>{service.s_desc}</p>
+                        <p className='services-skills'>{service.s_title}</p>
+                        <p className='services-language'>{service.s_language}</p>
                     </div>
                 ))}
             </div>

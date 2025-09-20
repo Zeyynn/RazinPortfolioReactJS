@@ -14,7 +14,7 @@ const Hero = () => {
         <p>A final year student currently pursuing in Bachelor of Software Engineering in Universiti Malaysia Pahang Sultan Abdullah and soon to be graduated at the end of 2025</p>
         <div className="hero-action">                         {/*Profile Links to Github and Linkedin*/}
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-            <a href="https://razin-portfolio-react-js.vercel.app/Hariz_Razin_Resume.pdf" download="Hariz_Razin_Resume.pdf" className="hero-resume">My Resume</a>
+            <a href="/HarizRazin_Resume.pdf" download="Hariz_Razin_Resume.pdf" className="hero-resume">My Resume</a>
         </div>
     </div>
     </>
