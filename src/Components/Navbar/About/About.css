@@ -43,7 +43,7 @@
 .about-skills{
     display: grid;
     flex-direction: column;
-    gap: 50px 50px;
+    gap: 45px 50px;
     max-width: 900px;
 }
 .about-skill {

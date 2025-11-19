@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../../assets/theme_pattern1.svg'
-import aboutme_img from '../../../assets/aboutme_img.jpg'
 import aboutme_img2 from '../../../assets/aboutme_img1.jpg'
 
 const About = () => {
@@ -24,6 +23,7 @@ const About = () => {
             <p><a href="https://www.linkedin.com/in/hariz-razin-m-893638302" target="_blank" rel="noopener noreferrer" className='links'>LinkedIn</a></p>
             <p><a href="https://github.com/Zeyynn" target="_blank" rel="noopener noreferrer" className='links'>GitHub</a></p>
             <p><a href="https://trigontech.my" target="_blank" rel="noopener noreferrer" className='links'>Trigon Tech</a></p>
+            <p><a href="https://www.webbygroup.com" target="_blank" rel="noopener noreferrer" className='links'>Webby Group</a></p>
           </div>
           <div className="about-skills">
             <div className="about-skill" style={{ "--target-width": "95%" }}>
