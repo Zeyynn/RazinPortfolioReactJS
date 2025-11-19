@@ -12,7 +12,7 @@ const Contact = () => {                                 //API for email notifica
         const formData = new FormData(event.target);
     
         formData.append("access_key", "e7e096b5-89ad-469c-8a2e-a7c3116915be");
-    
+      
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
     

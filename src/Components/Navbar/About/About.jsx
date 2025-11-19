@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">                      {/*About Me Desc*/}
-            <p>A soon to be graduated university student in Universiti Malaysia Pahang Sultan Abdullah (UMPSA)</p>
+            <p>A graduated university student in Universiti Malaysia Pahang Sultan Abdullah (UMPSA)</p>
             <p>Have experience in both Frontend and Backend Development.</p>
             <p>Recently completed an internship at Trigon Tech as a Full Stack Developer.</p>
             <p>Links for LinkedIn, Github</p>
