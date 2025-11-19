@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import theme_pattern from '../../../assets/theme_pattern1.svg'
 import aboutme_img from '../../../assets/aboutme_img.jpg'
+import aboutme_img2 from '../../../assets/aboutme_img1.jpg'
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={aboutme_img} alt="" />                  {/*About Me Img*/}
+          <img src={aboutme_img2} alt="" />                  {/*About Me Img*/}
         </div>
         <div className="about-right">
           <div className="about-para">                      {/*About Me Desc*/}
