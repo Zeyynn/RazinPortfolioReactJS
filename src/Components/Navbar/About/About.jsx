@@ -25,52 +25,55 @@ const About = () => {
             <p><a href="https://trigontech.my" target="_blank" rel="noopener noreferrer" className='links'>Trigon Tech</a></p>
             <p><a href="https://www.webbygroup.com" target="_blank" rel="noopener noreferrer" className='links'>Webby Group</a></p>
           </div>
-          <div className="about-skills">
-            <div className="about-skill" style={{ "--target-width": "95%" }}>
-              <p>HTML & CSS</p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
-            </div>
-            <div className="about-skill" style={{ "--target-width": "77%" }}>
-              <p>React Framework<img></img></p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
-            </div>
 
-            <div className="about-skill" style={{ "--target-width": "70%" }}>
-              <p>JavaScript</p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
+
+        </div>
+      </div>
+      <div className="about-bottom">
+        <div className="about-skills">
+          <div className="about-skill" style={{ "--target-width": "95%" }}>
+            <p>HTML & CSS</p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
             </div>
-            <div className="about-skill" style={{ "--target-width": "75%" }}>
-              <p>Laravel Framework</p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
-            </div>
-            <div className="about-skill" style={{ "--target-width": "70%" }}>
-              <p>PHP</p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
-            </div>
-            <div className="about-skill" style={{ "--target-width": "75%" }}>
-              <p>TypeScript</p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
-            </div>
-            <div className="about-skill" style={{ "--target-width": "50%" }}>
-              <p>MySQL</p>
-              <div className="bar-wrapper">
-                <div className="bar"></div>
-              </div>
+          </div>
+          <div className="about-skill" style={{ "--target-width": "77%" }}>
+            <p>React Framework<img></img></p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
             </div>
           </div>
 
+          <div className="about-skill" style={{ "--target-width": "70%" }}>
+            <p>JavaScript</p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
+            </div>
+          </div>
+          <div className="about-skill" style={{ "--target-width": "75%" }}>
+            <p>Laravel Framework</p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
+            </div>
+          </div>
+          <div className="about-skill" style={{ "--target-width": "70%" }}>
+            <p>PHP</p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
+            </div>
+          </div>
+          <div className="about-skill" style={{ "--target-width": "75%" }}>
+            <p>TypeScript</p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
+            </div>
+          </div>
+          <div className="about-skill" style={{ "--target-width": "50%" }}>
+            <p>MySQL</p>
+            <div className="bar-wrapper">
+              <div className="bar"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="about-achievements">    {/*About Me Achievements*/}
