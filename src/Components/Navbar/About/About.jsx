@@ -18,7 +18,7 @@ const About = () => {
           <div className="about-para">                      {/*About Me Desc*/}
             <p>A graduated university student in Universiti Malaysia Pahang Sultan Abdullah (UMPSA)</p>
             <p>Have experience in both Frontend and Backend Development.</p>
-            <p>Recently completed an internship at Trigon Tech as a Full Stack Developer.</p>
+            <p>Currently working as a PHP Developer at Webby Group</p>
             <p>Links for LinkedIn, Github</p>
             <p><a href="https://www.linkedin.com/in/hariz-razin-m-893638302" target="_blank" rel="noopener noreferrer" className='links'>LinkedIn</a></p>
             <p><a href="https://github.com/Zeyynn" target="_blank" rel="noopener noreferrer" className='links'>GitHub</a></p>

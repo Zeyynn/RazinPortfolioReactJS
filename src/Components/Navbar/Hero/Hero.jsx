@@ -12,6 +12,7 @@ const Hero = () => {
         <img src={profile_img} className="profile-image" alt =""/>
         <h1><span className='hero-name'>I'm Hariz Razin,</span> a recently fresh graduate in <span className='hero-country'>Malaysia</span></h1>
         <p>Studied Bachelor of Software Engineering in Universiti Malaysia Pahang Sultan Abdullah and graduated in 9th November of 2025</p>
+        <p>Currently employed at Webby Group as a PHP Developer</p>
         <div className="hero-action">                         {/*Profile Links to Github and Linkedin*/}
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
             <a href="/HarizRazin_Resume.pdf" download="Hariz_Razin_Resume.pdf" className="hero-resume">My Resume</a>
